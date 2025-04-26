@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "lib": ["dom", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "types": ["node", "express"],
+    "resolveJsonModule": true,
+    "strict": true,
+    "isolatedModules": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"] 
+}

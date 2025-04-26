@@ -1,0 +1,73 @@
+# Arquivo .gitignore para projeto full-stack
+
+### Raiz do Projeto ###
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+.idea/
+.vscode/
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.sqlite
+*.db
+*.bak
+Thumbs.db
+
+### Frontend ###
+frontend/node_modules/
+frontend/.parcel-cache
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/coverage/
+# frontend/.env
+frontend/.eslintcache
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/.eslintcache
+frontend/.next/
+frontend/out/
+
+### Backend ###
+backend/node_modules/
+backend/dist/
+backend/coverage/
+# backend/.env
+backend/package-lock.json
+backend/yarn.lock
+backend/.nyc_output/
+backend/*.log
+# backend/.env
+
+### Banco de Dados ###
+db/migrations/
+db/*.db
+# db/*.sql
+db/*.sqlite
+db/backups/
+db/*.dump
+
+### Arquivos de IDE ###
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+### Sistemas Operacionais ###
+# Windows
+[Tt]humbs.db
+
+# Linux
+*.swp
+*.swo
+
+# macOS
+.AppleDouble
+.LSOverride
