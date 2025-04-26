@@ -93,6 +93,10 @@ npm install
 - Ao executar o projeto, as tabelas do banco de dados será criado automaticamente.
 - Mas por algum motivo não criar as tabelas tem um arquivo `sisvendas.sql` para as tabelas do banco de dados criado.
 - Observação  o arquivo `sisvendas.sql` não foi testado!, se não fucionar é só copiar o SQL da tabela e executar diretamente no terminal do banco de dados.
+- Para configurar a senha e usuário de acesso ao banco de dados no arquivo `backend/.env`.
+
+![Configurar a senha e usuário](./frontend/public/img/confBanco.jpg) 
+
 
 4.Inicie o servidor de desenvolvimento:
 ```bash
